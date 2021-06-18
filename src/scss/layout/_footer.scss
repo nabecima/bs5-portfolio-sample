@@ -1,0 +1,15 @@
+.l-footer {
+  padding-top: 1rem;
+  background: $footer;
+
+  &__sns {
+    a {
+      color: $white;
+      padding: 0 0.5rem;
+
+      i {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

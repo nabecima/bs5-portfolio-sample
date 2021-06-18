@@ -1,0 +1,37 @@
+.l-header {
+  @include gradient;
+
+  &__logo {
+    width: 8rem;
+    @include media-breakpoint-down(md) {
+      width: 6rem;
+    }
+  }
+
+  &__menu {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  &__item {
+    padding: 0 0.7rem;
+  }
+
+  &__item-link {
+    color: $white !important;
+    @include media-breakpoint-up(md) {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__toggle {
+    color: $white !important;
+    @include media-breakpoint-up(md) {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__dropdown-menu {
+    border: none;
+  }
+}

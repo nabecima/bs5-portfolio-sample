@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nabecima Daichi</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="l-header shadow fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#top">
+            <!-- <img class="l-header__logo" src="./images/logo.svg" alt="" /> -->
+            <img class="l-header__logo" src="./images/logo2.svg" alt="" />
+          </a>
+          <button
+            id="navbar-toggler"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav l-header__menu">
+              <li class="nav-item l-header__item">
+                <a
+                  class="nav-link active l-header__item-link"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item l-header__item">
+                <a class="nav-link l-header__item-link" href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item l-header__item">
+                <a class="nav-link l-header__item-link" href="#portfolio"
+                  >portfolio</a
+                >
+              </li>
+              <li class="nav-item l-header__item">
+                <a class="nav-link l-header__item-link" href="#faq">faq</a>
+              </li>
+              <li class="nav-item l-header__item">
+                <a class="nav-link l-header__item-link" href="#contact"
+                  >contact</a
+                >
+              </li>
+              <li class="nav-item dropdown l-header__item">
+                <a
+                  class="nav-link dropdown-toggle l-header__toggle"
+                  href="#"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Language
+                </a>
+                <ul
+                  class="dropdown-menu l-header__dropdown-menu"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li class="dropdown-item jp active">日本語</li>
+                  <li class="dropdown-item en">English</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="top" class="p-hero">
+        <div class="container">
+          <div class="row align-items-center text-white">
+            <div class="col-md-6">
+              <h1 class="display-2">
+                <span class="display-2 p-hero__intro">Hi!, I'm Daichi</span>
+                <span class="display-2 p-hero__description active lh-base"
+                  >新卒でSEとして入社し、<br />
+                  Unityを利用したVRアプリ開発に携わる。<br />
+                  その後、フリーでC#講師兼Webデザイナーとして活動中。<br />
+                  <!-- 趣味はハンドボールで、高校生に指導経験あり。 -->
+                </span>
+                <span class="display-2 p-hero__description lh-base"
+                  >Joined the company as a new graduate SE. <br />
+                  Engaged in VR application development using Unity.<br />
+                  Since then, has been active as a programming instructor and
+                  web designer.<br />
+                  <!-- His hobby is handball, and he has experience coaching high
+                  school students. -->
+                </span>
+              </h1>
+            </div>
+            <div class="col-md-6">
+              <div class="p-hero__img-box">
+                <img src="./images/hero.svg" alt="" class="img-fluid" />
+                <a
+                  href="https://www.youtube.com/channel/UChJKuIaQTCBqCRrA-pK7L0g"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="
+                    position-absolute
+                    top-50
+                    start-50
+                    translate-middle
+                    p-hero__play-link
+                  "
+                >
+                  <span>
+                    <i class="fas fa-play-circle"></i>
+                  </span>
+                  <span class="p-hero__border-animation"></span>
+                  <span
+                    class="
+                      p-hero__border-animation p-hero__border-animation--delay1
+                    "
+                  ></span>
+                  <span
+                    class="
+                      p-hero__border-animation p-hero__border-animation--delay2
+                    "
+                  ></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="p-service">
+        <div class="container">
+          <div class="row text-center">
+            <h1 class="display-3 fw-bold c-heading-line">Services</h1>
+          </div>
+        </div>
+        <div class="container p-service__container">
+          <div class="row justify-content-center">
+            <div class="col-md text-center">
+              <div class="p-service__card-head">
+                <img src="./images/lp.svg" alt="" class="img-fluid" />
+                <h2 class="p-service__head">LP制作</h2>
+              </div>
+            </div>
+            <div class="col-md text-center">
+              <div class="p-service__card-head">
+                <img src="./images/homepage.svg" alt="" class="img-fluid" />
+                <h2 class="p-service__head">ホームページ制作</h2>
+              </div>
+            </div>
+            <div class="col-md text-center">
+              <div class="p-service__card-head">
+                <img src="./images/code.svg" alt="" class="img-fluid" />
+                <h2 class="p-service__head">コーディング</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="p-portfolio">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,160L30,149.3C60,139,120,117,180,144C240,171,300,245,360,234.7C420,224,480,128,540,112C600,96,660,160,720,202.7C780,245,840,267,900,240C960,213,1020,139,1080,96C1140,53,1200,43,1260,58.7C1320,75,1380,117,1410,138.7L1440,160L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+          ></path>
+        </svg>
+        <div class="container">
+          <div class="row text-center text-white">
+            <h1 class="display-3 fw-bold c-heading-line mb-lg-5">Portfolio</h1>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-4 p-0">
+              <div class="p-portfolio__card p-3">
+                <a href="https://www.nabecima.jp/dope/">
+                  <img
+                    src="./images/cafe.jpeg"
+                    alt=""
+                    class="img-fluid shadow"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 p-0">
+              <div class="p-portfolio__card p-3">
+                <a href="https://www.nabecima.jp/fp/">
+                  <img src="./images/fp.jpeg" alt="" class="img-fluid shadow" />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 p-0">
+              <div class="p-portfolio__card p-3">
+                <a href="https://www.nabecima.jp/mind-therapy/">
+                  <img
+                    src="./images/mind-therapy.jpeg"
+                    alt=""
+                    class="img-fluid shadow"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 p-0">
+              <div class="p-portfolio__card p-3">
+                <a href="https://www.nabecima.jp/vrevolution3.0/">
+                  <img
+                    src="./images/vrevolution.jpeg"
+                    alt=""
+                    class="img-fluid shadow"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 p-0">
+              <div class="p-portfolio__card p-3">
+                <a href="https://www.nabecima.jp/affiliatevideo/">
+                  <img
+                    src="./images/affiliatevideo.jpeg"
+                    alt=""
+                    class="img-fluid shadow"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,160L30,149.3C60,139,120,117,180,144C240,171,300,245,360,234.7C420,224,480,128,540,112C600,96,660,160,720,202.7C780,245,840,267,900,240C960,213,1020,139,1080,96C1140,53,1200,43,1260,58.7C1320,75,1380,117,1410,138.7L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <section id="faq" class="p-faq mb-5">
+        <div class="container">
+          <div class="row text-center">
+            <h1 class="display-3 text-uppercase fw-bold c-heading-line">faq</h1>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-12">
+              <div class="p-faq__accordion">
+                <div
+                  class="accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item shadow mb-3">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        Accordion Item #1
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is
+                        intended to demonstrate the
+                        <code>.accordion-flush</code> class. This is the first
+                        item's accordion body.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item shadow mb-3">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        Accordion Item #2
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwo"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is
+                        intended to demonstrate the
+                        <code>.accordion-flush</code> class. This is the second
+                        item's accordion body. Let's imagine this being filled
+                        with some actual content.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item shadow mb-3">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        Accordion Item #3
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body">
+                        Placeholder content for this accordion, which is
+                        intended to demonstrate the
+                        <code>.accordion-flush</code> class. This is the third
+                        item's accordion body. Nothing more exciting happening
+                        here in terms of content, but just filling up the space
+                        to make it look, at least at first glance, a bit more
+                        representative of how this would look in a real-world
+                        application.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-contact mb-5" id="contact">
+        <div class="container">
+          <div class="row">
+            <h1 class="display-3 fw-bold text-center c-heading-line mb-5">
+              Contact
+            </h1>
+            <div class="col-md-6 m-auto">
+              <form action="">
+                <div class="mb-3">
+                  <input type="text" placeholder="Name" class="form-control" />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    placeholder="Message"
+                    rows="6"
+                    class="form-control"
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button class="btn btn-primary btn-lg text-white">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+            <!-- <div class="col-md-6 p-contact__way">
+              <p>
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;
+                <a href="mailto:hoget@gmail.com">hoge@gmail.com</a>
+              </p>
+            </div> -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="l-footer py-2">
+      <div class="l-footer__sns">
+        <div class="container">
+          <div class="row py-4 text-center text-white">
+            <div class="col-12">
+              <p class="text-center fw-bold">Follow Along</p>
+              <a href="https://www.facebook.com/profile.php?id=100066681316275"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/nabecima_8511"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="https://instagram.com/nabecima_8511/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://github.com/"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="l-footer__copyright text-center text-white">
+        <small>&copy; 2021 DAICHI NABECIMA All Rights Reserved</small>
+      </div>
+    </footer>
+  </body>
+</html>

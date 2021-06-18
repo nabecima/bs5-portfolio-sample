@@ -1,0 +1,77 @@
+.p-hero {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background: url(../../images/wave-t.svg) center no-repeat;
+    background-size: cover;
+  }
+  @include gradient;
+  padding: 10rem 0 0 0;
+  @include media-breakpoint-down(sm) {
+    padding: 5rem 0 0 0;
+  }
+
+  .display-2 {
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  &__intro {
+    display: inline-block;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  &__description {
+    &.active {
+      display: block;
+    }
+    display: none;
+    font-size: 1rem;
+    text-transform: none;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__img-box {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .fa-play-circle {
+      font-size: 6rem;
+      color: #2757ff;
+    }
+  }
+
+  &__play-link {
+    background: radial-gradient($white 50%, transparent 50%);
+    border-radius: 50%;
+  }
+
+  &__border-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    animation: puls 1.3s linear infinite;
+
+    &--delay1 {
+      animation-delay: 0.8s;
+    }
+    &--delay2 {
+      animation-delay: 1.3s;
+    }
+  }
+}

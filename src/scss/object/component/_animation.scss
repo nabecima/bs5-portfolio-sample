@@ -1,0 +1,13 @@
+@keyframes puls {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+    border: 0.55rem solid $white;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+    border: 0.15rem solid $white;
+  }
+}

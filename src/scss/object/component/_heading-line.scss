@@ -1,0 +1,16 @@
+.c-heading-line {
+  text-transform: capitalize;
+
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 10rem;
+    height: 0.25rem;
+    display: block;
+    background: #48c6ef;
+  }
+}
